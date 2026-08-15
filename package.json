@@ -1,11 +1,22 @@
 {
+  "name": "ptudw",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
   },
   "devDependencies": {
-    "eslint": "^10.8.1",
+    "eslint": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.9.6"
+    "prettier": "^3.8.4"
   }
 }
